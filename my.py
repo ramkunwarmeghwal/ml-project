@@ -34,7 +34,8 @@ model.add(Dense(units=512, input_dim=28*28, activation='relu'))
 model.summary()
 
 def layers():
-
+ 
+ import random
  x=0
  y=255
     
