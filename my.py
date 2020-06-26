@@ -3,7 +3,7 @@
 
 
 
-[A[A[A[A[Afrom keras.datasets import mnist
+from keras.datasets import mnist
 
 dataset = mnist.load_data('mymnist.db')
 
@@ -78,5 +78,5 @@ if scores[1] <= 0.100:
     layers()
 else:
     pass
-:
+
 
