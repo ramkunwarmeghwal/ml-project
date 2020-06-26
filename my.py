@@ -1,8 +1,3 @@
-
-
-
-
-
 from keras.datasets import mnist
 
 dataset = mnist.load_data('mymnist.db')
