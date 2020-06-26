@@ -74,7 +74,7 @@ print('Test loss:', scores[0])
 print('accuracy:', scores[1])
 
 
-if scores[1] <= 0.100:
+if scores[1] <= 0.80:
     layers()
 else:
     pass
