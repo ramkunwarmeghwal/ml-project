@@ -8,7 +8,6 @@ X_train , y_train = train
 
 X_test , y_test = test
 
-import cv2
 
 import matplotlib.pyplot as plt
 
